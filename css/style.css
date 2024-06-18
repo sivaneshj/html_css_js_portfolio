@@ -1,3 +1,31 @@
 
 
   @import url(./fonts.css);
+  @import url(./variables/variable.css);
+.header_area .main-menu .navbar .container-fluid .navbar-brand{
+  padding: 0 2rem 0 2rem;
+}
+.header_area .main-menu .navbar {
+  padding: 1rem 14rem 1rem 12rem;
+}
+.header_area .main-menu .nav-item .nav-link {
+  font: normal 500 15px/2px var(--roboto);
+  text-transform: uppercase;
+  padding: 1.7rem 1.2rem;
+  color: var(--title-color);
+}
+
+.header_area .main-menu .navbar .navbar-nav .active a{
+  background: var(--gradient-color); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+}
+.header_area .main-menu .navbar .navbar-nav a:hover{
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+}
